@@ -1,0 +1,39 @@
+body{
+    /* background-image: url("0.jpg"); */
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: grey;
+    color: white;
+}
+.btn{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+input{
+    padding: 10px;
+}
+.hi{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+
+}
+.hi:hover{
+    border-radius: 0 black;
+    cursor: pointer;
+}
+.btn:hover{
+    border-radius: 0 black;
+    cursor: pointer;
+}
+  

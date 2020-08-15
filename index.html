@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyDNRZhQOtGxboMTm7pl4ECL7iU44IWizxE",
+          authDomain: "onlinewebkam.firebaseapp.com",
+          databaseURL: "https://onlinewebkam.firebaseio.com",
+          projectId: "onlinewebkam",
+          storageBucket: "onlinewebkam.appspot.com",
+          messagingSenderId: "128275111356",
+          appId: "1:128275111356:web:8841f156e4399877be5fb9",
+          measurementId: "G-74E0RV7LBR"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        // firebase.analytics();
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div>
+        <H1>TODO APP</H1>
+        <input placeholder="Enter todo" type="text"  id="to _item">
+        <button onclick="addTodo()" class="hi">ADD ITEM</button>
+        <button onclick="deleteAll()" class="hi">DELETE All</button>
+
+    </div>
+    <div id="list"> 
+        <ul>
+
+        </ul>
+    
+    </div>
+
+
+
+<script src="app.js"></script>
+    
+</body>
+</html>
